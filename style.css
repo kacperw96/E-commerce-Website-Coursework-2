@@ -1,0 +1,167 @@
+.container{
+    padding-top:80px;
+}
+.phoneItem{
+    text-align: center;
+    padding: 10px
+}
+
+.phoneItem:hover{
+    transform: scale(1.075);
+    box-shadow: 0 0 20px #000;
+    text-align: center;
+    background-color: white;
+}
+
+img{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+}
+
+.center-block {
+  margin: auto;
+  display: block;
+}
+
+input{
+    margin: 5px;
+}
+
+.menu{
+    position: absolute;
+    transition: none;
+    z-index: 1;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 150px;
+}
+
+.menu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.formBox{
+      width: 75%  
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+}
+
+.menu .active {
+    background-color: #628e01;
+}
+
+.menuLogin{
+    float:right; 
+    background: linear-gradient(to right, #333 , #b8babc);
+}
+
+.loginBox{
+    width:25%;
+}
+
+.advert{
+    height: 70%;
+    width: 100%;
+}
+
+.footer{
+   position: fixed;
+   z-index: 1;
+   font-size:10px;
+   left: 0;
+   bottom: 0;
+   height: 18px;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: left;	
+}
+
+.link
+{
+	font-size: 12px;
+	color:blue;
+	text-decoration: none; 
+	background-color: transparent;
+}
+
+
+/*------------------*/
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    right: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	bottom: 25px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.basket{
+    color: white;
+    margin-left: 25px;
+	align: center
+}
+
+.basket th{
+	padding-right: 25px
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
